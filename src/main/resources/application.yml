@@ -1,0 +1,13 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: confsvr
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Consion/config-repo.git/
+          searchPaths: licensingservice
+          username: zhangyezhye@163.com
+          password: 279048301zhye
